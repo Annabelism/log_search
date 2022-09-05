@@ -1,0 +1,70 @@
+body {
+  background-color: #dde4f3;
+}
+
+.log-search-bar {
+  width: 100vw;
+  background: #e3e3e3;
+  padding: 20px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+
+.log-search-bar > div {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.app-content {
+  width: 96vw;
+  margin-top: 80px;
+  overflow-y: scroll;
+  height: calc(100vh - 90px);
+}
+
+.log-line {
+  display: flex;
+  max-width: 100%;
+}
+
+.log-line > div {
+  display: inline-block;
+  margin-right: 8px;
+}
+
+.log-line pre {
+  margin: 0;
+  font-size: 16px;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.log-line-number {
+  text-align: right;
+  width: 60px;
+  min-width: 60px;
+  color: #989898;
+}
+
+.load-more-button {
+  background-color: #f6f6f6;
+
+}
+
+.load-more-button button {
+  width: 100%;
+}
+
+#minimize-button, #delete-button {
+  float: right;  
+  background-color: #f6f6f6;
+  margin-left: 1%;
+}
+
+#search-found {
+  margin-top: 1%;
+}
+
+
