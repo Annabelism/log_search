@@ -1,7 +1,8 @@
+Note: I worked on this project as an independent final project during my internship as a web tool developer for Arista Networks. 
 
-# Log Search Starter Project
+# Log Search Project
 
-This is an example application, which uses the core library of [Hookstate](https://github.com/avkonst/hookstate) to manage various types of states.
+This is an application which uses the core library of [Hookstate](https://github.com/avkonst/hookstate) to manage various types of states.
 
 The app uses Hookstate which has [code samples and demos available online](https://hookstate.js.org/).
 
